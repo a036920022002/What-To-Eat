@@ -8,6 +8,7 @@ require('./config/mongoose');
 require('dotenv').config();
 
 const app = express();
+const port = process.env.port || 3000;
 const restaurantAll = require('./models/restaurant.js');
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
@@ -18,4 +19,4 @@ app.use(express.static('public'));
 
 app.use(router);
 
-app.listen(3000, () => console.log('http://localhost:3000'));
+app.listen(port, () => console.log(`http://localhost:${port}`));

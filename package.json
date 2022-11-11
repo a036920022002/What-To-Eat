@@ -22,10 +22,10 @@
   "homepage": "https://github.com/a036920022002/S3-A7-NEW#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "dotenv": "^16.0.2",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "express-handlebars": "^4.0.2",
     "method-override": "^3.0.0",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.13.15"
   }
 }
